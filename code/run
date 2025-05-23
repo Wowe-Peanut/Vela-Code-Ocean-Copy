@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -ex
+
+# Filepaths
+cs1="Study 1: Benchmark Against Experimental Data"
+cs2="Study 2: Active Learning of Categorical Constraints"
+cs3="Study 3: Informative Priors for Continuous Constraint Satisfaction"
+
+# Case study 1
+python -u "$cs1/CaseStudy1.py"
+
+# Case study 2
+python -u "$cs2/Active_Learning_No_Prior_v9.py"
+python -u "$cs2/Active_Learning_v9_with_Prior.py" 
+python -u "$cs2/Error_vs_Iteration_stats.py"
+
+# Case study 3
+python -u "$cs3/ys_continuous_classification_no_prior.py"
+python -u "$cs3/ys_continuous_classification_prior.py"
+python -u "$cs3/combine_plots.py"

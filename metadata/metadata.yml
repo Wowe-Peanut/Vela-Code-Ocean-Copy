@@ -1,0 +1,29 @@
+metadata_version: 1
+name: Physics-based Priors for Gaussian Process Phase Classification in Alloy Design
+description: 'Alloy design can be framed as a constraint-satisfaction problem (Abu
+  Odeh et al., 2018). Building on previous methodologies (Vela et al., 2023), we propose
+  equipping Gaussian Process Classifiers (GPCs) with physics-informed prior mean functions
+  to model the boundaries of feasible design spaces. Through three case studies, we
+  highlight the utility of informative priors for handling constraints on continuous
+  and categorical properties. 1) Phase Stability: By incorporating CALPHAD predictions
+  as priors for solid-solution phase stability, we enhance model validation using
+  an augmented XRD dataset (Machaka et al., 2021). 2) Phase Stability Prediction Refinement:
+  We demonstrate an in silico active learning approach to efficiently correct phase
+  diagrams. 3) Continuous Property Thresholds: By embedding priors into continuous
+  property models, we accelerate the discovery of alloys meeting specific property
+  thresholds via active learning. In each case, integrating physics-based insights
+  into the classification framework substantially improved model performance, demonstrating
+  an efficient strategy for constraint-aware alloy design.'
+authors:
+- name: Brent Garrett Vela
+  affiliations:
+  - name: Texas A&M
+- name: Ryan O'Mullan
+  affiliations:
+  - name: Texas A&M
+- name: Christofer Hardcastle
+  affiliations:
+  - name: Texas A&M
+corresponding_contributor:
+  name: Brent Vela
+  email: brentvela@gmail.com

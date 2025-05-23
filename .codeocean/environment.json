@@ -1,0 +1,41 @@
+{
+	"version": 1,
+	"base_image": "registry.codeocean.com/codeocean/miniconda3:4.12.0-python3.9-ubuntu20.04",
+	"options": {},
+	"installers": {
+		"pip3": {
+			"packages": [
+				{
+					"name": "matplotlib",
+					"version": "3.9.4"
+				},
+				{
+					"name": "mpltern",
+					"version": "1.0.4"
+				},
+				{
+					"name": "numpy",
+					"version": "2.0.2"
+				},
+				{
+					"name": "openpyxl",
+					"version": "3.1.5"
+				},
+				{
+					"name": "pandas",
+					"version": "2.2.3"
+				},
+				{
+					"name": "scikit-learn",
+					"version": "1.6.1"
+				},
+				{
+					"name": "seaborn",
+					"version": "0.13.2"
+				}
+			],
+			"options": {},
+			"pre_install_options": {}
+		}
+	}
+}
